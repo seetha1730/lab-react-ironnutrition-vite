@@ -54,7 +54,50 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+#root{background:#fff;color:#213547}
+.AddFood{padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+  
+    align-items: center;
+    width: 26%;
+    border: 1px solid #009879;
+    min-height: 270px;
+    margin: 20px;
+    border-radius: 5px;
+}  
+.searchProduct input{color:#009879;margin-top:20px; background:#fff;border:1px solid #009879;padding:10px}
+.foodProducts img {
+  width: 45%;
+  min-height: 150px;
+  margin-bottom: 20px;
+}
 
+p{margin:0}
+h3{color:#009879}
+.foodProducts button,.AddFood,.AddFood button {background:#009879;margin-top:20px; color:#fff}
+.AddFood label {width:30%}
+.AddFood input {width:70%}
+form {width:100%}
+.AddFood label {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form div {
+  display: flex;
+}
+.AddFood input {
+  width: 70%;
+  background: #fff;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #000;
+}
+.AddFood button {color:#009879;margin-top:20px; background:#fff}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

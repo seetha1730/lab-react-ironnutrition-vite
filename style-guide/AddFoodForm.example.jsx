@@ -20,7 +20,7 @@ function AddFoodForm() {
 
       <label>Servings</label>
       {/* render antd <Input /> type="number" here */}
-
+    
       <Button type="submit">Create</Button>
     </form>
   );
